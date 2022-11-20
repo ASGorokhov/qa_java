@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class CheckLionClass {
+public class TestLionClass {
 
     @Before
     public void init() {
@@ -26,7 +26,7 @@ public class CheckLionClass {
     @Mock
     Feline feline;
 
-    public CheckLionClass (String sex, boolean hasMane) {
+    public TestLionClass(String sex, boolean hasMane) {
         this.sex = sex;
         this.hasMane = hasMane;
     }

@@ -6,7 +6,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-public class CheckCatClass {
+public class TestCatClass {
 
     Feline feline = new Feline();
     Cat cat = new Cat(feline);
