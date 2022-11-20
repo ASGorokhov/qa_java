@@ -7,10 +7,8 @@ import org.junit.runners.Parameterized;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-
 import java.util.Arrays;
 import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
@@ -60,5 +58,4 @@ public class TestLionClass {
         Mockito.when(feline.getFood("Хищник")).thenReturn(expected);
         assertEquals("Львы не стали есть мясо!", expected, lion.getFood());
     }
-
 }

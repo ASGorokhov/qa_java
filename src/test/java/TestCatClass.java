@@ -3,7 +3,6 @@ import com.example.Feline;
 import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 public class TestCatClass {
